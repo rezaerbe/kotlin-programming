@@ -4,6 +4,9 @@ import kotlinx.coroutines.*
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
+// Introduction to coroutines
+// https://developer.android.com/codelabs/basic-android-kotlin-training-introduction-coroutines?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-kotlin-unit-4-pathway-1%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-training-introduction-coroutines
+
 val formatter = DateTimeFormatter.ISO_LOCAL_TIME
 val time = { formatter.format(LocalDateTime.now()) }
 
